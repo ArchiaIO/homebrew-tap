@@ -1,12 +1,11 @@
 class Archia < Formula
   desc "Command-line interface for Archia"
   homepage "https://archia.app"
-  version "0.20.1"
   license :cannot_represent
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://archia-distribution.s3.us-east-1.amazonaws.com/archia-cli/archia-0.20.1-aarch64-apple-darwin.tar.gz"
-    sha256 "8fc37b9ebcf08adce2763db0cd6b42c39161151dbf673175e1de9fa7dd102d81"
+    url "https://archia-distribution.s3.us-east-1.amazonaws.com/archia-cli/archia-0.21.0-aarch64-apple-darwin.tar.gz"
+    sha256 "af0ae12f0e74a749312a4a833162c52ab3f70006a86318e5f4ba4e698ccf9b61"
   else
     odie "Archia Homebrew currently supports Apple Silicon Macs only."
   end
