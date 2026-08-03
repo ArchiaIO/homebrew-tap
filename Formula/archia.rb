@@ -4,8 +4,8 @@ class Archia < Formula
   license :cannot_represent
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://archia-distribution.s3.us-east-1.amazonaws.com/archia-cli/archia-0.31.2-aarch64-apple-darwin.tar.gz"
-    sha256 "36727d0f8456ec399202b824bf0f5c10a34c6e76d182914e28e8e13e3c643273"
+    url "https://archia-distribution.s3.us-east-1.amazonaws.com/archia-cli/archia-0.32.0-aarch64-apple-darwin.tar.gz"
+    sha256 "95b1e839527e69c1c41abddfbe34609281b6d635828b5b7d68ac3ce25f15a351"
   else
     odie "Archia Homebrew currently supports Apple Silicon Macs only."
   end
