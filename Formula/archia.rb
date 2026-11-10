@@ -5,7 +5,7 @@ class Archia < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://archia-distribution.s3.us-east-1.amazonaws.com/archia-cli/archia-0.54.0-aarch64-apple-darwin.tar.gz"
-    sha256 "94d95c2671e1e188bf10d5af445327a521bb5c9f499eef50fc879c5d66235b27"
+    sha256 "f4f937aa1dd686745e82ae17bfb6fce431b5b384a292f40c94692a37aa224388"
   else
     odie "Archia Homebrew currently supports Apple Silicon Macs only."
   end
